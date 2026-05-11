@@ -6,7 +6,7 @@
 /*   By: garodri2 <garodri2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/06 13:54:07 by garodri2          #+#    #+#             */
-/*   Updated: 2026/05/11 09:13:11 by garodri2         ###   ########.fr       */
+/*   Updated: 2026/05/11 16:39:24 by garodri2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,13 +18,14 @@
 # include <stdint.h>
 # include <unistd.h>
 
-// //prototipos
-// typedef struct s_list
-// {
-// 	void			*content;
-// 	struct s_list	*next;
 
-// }					t_list;
+//prototipos
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+
+}					t_list;
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
@@ -48,7 +49,7 @@ void	*ft_calloc(size_t nmemb, size_t size);
 // void	ft_lstadd_back(t_list **lst, t_list *new);
 void	*ft_memchr(const void *s, int c, size_t n);
 // void	ft_lstiter(t_list *lst, void (*f)(void *));
-// void	ft_lstadd_front(t_list **lst, t_list *new);
+void	ft_lstadd_front(t_list **lst, t_list *new);
 // void	ft_lstdelone(t_list *lst, void (*del)(void*));
 // void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	*ft_memcpy(void *dest, const void *src, size_t n);
@@ -71,7 +72,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 
 // t_list	*ft_lstlast(t_list *lst);
-// t_list	*ft_lstnew(void *content);
+t_list	*ft_lstnew(void *content);
 // t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
 #endif
