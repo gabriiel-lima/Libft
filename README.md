@@ -1,3 +1,5 @@
+*This project has been created as part of the 42 curriculum by garodri2*
+
 # Libft
 
 ## Description
@@ -90,7 +92,8 @@ ft_putnbr_fd  -> Writes an integer to a file descriptor
 
 #### Conversion utilities
 
-```txt
+```txtThis project has been created as part
+of the 42 curriculum b
 ft_itoa       -> Converts an integer into a string
 ```
 
