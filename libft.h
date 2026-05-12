@@ -6,18 +6,15 @@
 /*   By: garodri2 <garodri2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/06 13:54:07 by garodri2          #+#    #+#             */
-/*   Updated: 2026/05/12 12:55:07 by garodri2         ###   ########.fr       */
+/*   Updated: 2026/05/12 14:19:24 by garodri2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stddef.h>
 # include <stdlib.h>
-# include <stdint.h>
 # include <unistd.h>
-
 
 //prototipos
 typedef struct s_list

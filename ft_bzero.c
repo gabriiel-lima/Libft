@@ -6,11 +6,10 @@
 /*   By: garodri2 <garodri2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 10:09:32 by garodri2          #+#    #+#             */
-/*   Updated: 2026/05/06 14:45:43 by garodri2         ###   ########.fr       */
+/*   Updated: 2026/05/12 14:16:38 by garodri2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
 #include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
