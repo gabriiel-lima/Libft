@@ -1,3 +1,7 @@
+<!-- <p align="center">
+  <img src="https://raw.githubusercontent.com/teu-user/teu-repo/main/images/libft.png" width="300">
+</p> -->
+
 *This project has been created as part of the 42 curriculum by garodri2*
 
 # Libft

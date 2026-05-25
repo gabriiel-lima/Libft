@@ -6,7 +6,7 @@
 /*   By: garodri2 <garodri2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 10:12:59 by garodri2          #+#    #+#             */
-/*   Updated: 2026/05/06 16:05:11 by garodri2         ###   ########.fr       */
+/*   Updated: 2026/05/13 10:05:57 by garodri2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,10 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&s[i]);
 	return (NULL);
 }
-// int main(void)
-// {
-//     char str[] = "Ola";
+int main(void)
+{
+    char str[] = "Ola";
 
-//     printf("%s", ft_strchr(str, 'l'));
-//     return (0);
-// }
+    printf("%s", ft_strchr(str, 'l'));
+    return (0);
+}

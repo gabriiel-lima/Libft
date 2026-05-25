@@ -6,7 +6,7 @@
 /*   By: garodri2 <garodri2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 14:58:16 by garodri2          #+#    #+#             */
-/*   Updated: 2026/05/11 09:50:25 by garodri2         ###   ########.fr       */
+/*   Updated: 2026/05/13 10:10:02 by garodri2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,11 +43,11 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	return (0);
 }
 
-// int main(void)
-// {
-//     char *s1 = "MZIRIBMZIRIBMZE123";
-//     char *s2 = "MZIRIBMZE";
-//     size_t max = strlen(s2);
-//     printf("\nReturn ft: %s", ft_strnstr(s1, s2, max));
-//     return (0);
-// }
+int main(void)
+{
+    char *s1 = "MZIRIBMZIRIBMZE123";
+    char *s2 = "MZIRIBMZE";
+    size_t max = strlen(s2);
+    printf("\nReturn ft: %s", ft_strnstr(s1, s2, max));
+    return (0);
+}

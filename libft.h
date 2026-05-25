@@ -6,7 +6,7 @@
 /*   By: garodri2 <garodri2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/06 13:54:07 by garodri2          #+#    #+#             */
-/*   Updated: 2026/05/12 14:19:24 by garodri2         ###   ########.fr       */
+/*   Updated: 2026/05/13 10:06:40 by garodri2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdio.h>
 
 //prototipos
 typedef struct s_list
