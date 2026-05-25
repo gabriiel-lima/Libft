@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/gabriiel-lima/Libft/blob/main/Libft.png" width="1150">
+  <img src="https://github.com/gabriiel-lima/Libft/blob/main/libft/Libft.png" width="1150">
 </p>
 
 *This project has been created as part of the 42 curriculum by garodri2*
