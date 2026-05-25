@@ -4,8 +4,6 @@
 
 *This project has been created as part of the 42 curriculum by garodri2*
 
-# Libft
-
 ## Description
 
 The **Libft** project consists of creating a personal C library by reimplementing functions from the standard C library (libc), along with additional utility functions and linked list manipulation tools.
